@@ -1,7 +1,9 @@
+import { NextPage } from 'next';
+
 import Main from '../layouts/Main';
 
-const HomePage = (props) => {
-  console.log(props);
+const HomePage: NextPage<{ products: Array<Object> }> = ({ products }) => {
+  console.log(products);
 
   return (
     <Main title="Case Frontend Engineer blu.com">
@@ -14,7 +16,9 @@ HomePage.getInitialProps = async ({ req }) => {
   // const res = await getPosts();
   // const json = await res.json();
   // return { posts: json };
-  return {};
+  return {
+  	products: [],
+  };
 }
 
 export default HomePage;
