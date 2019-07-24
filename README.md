@@ -11,7 +11,7 @@
 - Typescript
 
 ### Mock data
-To run application you need to run `fontem-FE-assignment` server, which provides mock data for this app
+To run application you need to run `fontem-FE-assignment` server, which provides mock data for this app. You will find slightly modified version of this app in the same archive, the initial version had couple of small issues that I fixed.
 
 ### Possible improvements
 - Font sizes should be listed in a separate file, included in theme and used from there. (Was kind of hard to make a list of all font sizes used on website without proper overview like styleguide)
