@@ -6344,7 +6344,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Alivejke\\Desktop\\fontem-FE-assignment\\src\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/d.baltak/Projects/nextjs-typescript-styled-components/.next");
       return error;
     }
   };
