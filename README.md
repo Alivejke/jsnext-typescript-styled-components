@@ -19,7 +19,3 @@ To run application you need to run `fontem-FE-assignment` server, which provides
 - I also have a feeling that typing may be improved over the codebase but since it's my first attempt with this stack I was not sure if that would be appropriate in some places, it felt like double checking on yourself sometimes so I decided to leave it as it is
 - Any comments how created app can be improved would be very much appreciated ;)
 
-### Contacts
-- Dmytro Baltak
-- email: alivejke@gmail.com
-- mobile: +31612137230
